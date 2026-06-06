@@ -8,3 +8,7 @@ node ./bin/env-doctor.js --json
 ```
 
 Checks for committed-looking `.env` files, missing `.env.example`, weak `.gitignore`, and literal secret patterns.
+
+## Safe Examples
+
+Use `.env.example` for variable names and harmless placeholder values. Keep real secrets in your shell, CI secret store, or deployment platform.
