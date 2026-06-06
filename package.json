@@ -1,0 +1,24 @@
+{
+  "name": "env-hygiene-doctor",
+  "version": "0.1.0",
+  "description": "Audit .env hygiene before publishing a repository.",
+  "type": "module",
+  "bin": {
+    "env-doctor": "./bin/env-doctor.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/env-doctor.js"
+  },
+  "keywords": [
+    "developer-tools",
+    "ai",
+    "cli",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
