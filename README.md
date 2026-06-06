@@ -12,3 +12,7 @@ Checks for committed-looking `.env` files, missing `.env.example`, weak `.gitign
 ## Safe Examples
 
 Use `.env.example` for variable names and harmless placeholder values. Keep real secrets in your shell, CI secret store, or deployment platform.
+
+## CI Behavior
+
+The CLI exits with a non-zero status for high or critical findings, making it suitable for lightweight repository hygiene checks.
